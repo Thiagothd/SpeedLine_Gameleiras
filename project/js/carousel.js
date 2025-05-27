@@ -1,16 +1,16 @@
 const slides = [
     {
-        image: "https://images.unsplash.com/photo-1518870849940-AFD58F8c88a9?auto=format&fit=crop&w=800&q=80",
+        image: "/images/slide1.jpg",
         title: "Conecte-se com o melhor da internet em Gameleiras!",
         subtitle: "Fibra óptica de alta velocidade para sua casa ou empresa"
     },
     {
-        image: "https://images.unsplash.com/photo-1558756878-8c6DS74C3F5b?auto=format&fit=crop&w=800&q=80", // Ajuste esta URL se o ID estiver incorreto
+        image: "/images/slide2.jpg", // Ajuste esta URL se o ID estiver incorreto
         title: "Tecnologia de ponta para você",
         subtitle: "Navegue sem limites com nossa internet de alta performance"
     },
     {
-        image: "https://images.unsplash.com/photo-1515369698047DS8d8k2L0aN7J?auto=format&fit=crop&w=800&q=80", // Ajuste esta URL se o ID estiver incorreto
+        image: "/images/slide3.png", // Ajuste esta URL se o ID estiver incorreto
         title: "Suporte técnico 24hrs",
         subtitle: "Estamos sempre prontos para te atender"
     }
