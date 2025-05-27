@@ -1,0 +1,50 @@
+.about-section {
+  padding: 5rem 0;
+  background: var(--white);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.about-text h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about-text p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.feature-card {
+  background: var(--gray-50);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.feature-card .icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1rem;
+}
+
+.feature-card h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: var(--text-light);
+}

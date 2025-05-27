@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Line Internet - Gameleiras</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/plans.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container">
+        <a href="#" class="logo">
+          <span class="logo-text-primary">S</span>
+          <span class="logo-text">peedline</span>
+          <span class="logo-subtitle">INTERNET</span>
+        </a>
+        
+        <div class="nav-links">
+          <button data-scroll="inicio">Início</button>
+          <button data-scroll="planos">Planos</button>
+          <button data-scroll="sobre">Sobre</button>
+          <button data-scroll="contato">Contato</button>
+          <a href="https://wa.me/553899999999" class="contact-button">Fale Conosco</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="carousel-section">
+        <div class="carousel">
+          <div class="carousel-items"></div>
+          <button class="carousel-button prev" aria-label="Anterior">❮</button>
+          <button class="carousel-button next" aria-label="Próximo">❯</button>
+        </div>
+      </section>
+
+      <section id="planos" class="plans-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Nossos Planos</h2>
+            <p>Escolha o plano ideal para você. Todos com qualidade e velocidade garantida.</p>
+          </div>
+
+          <div class="plan-category">
+            <h3 class="category-title">Planos Fibra Óptica</h3>
+            <p class="category-description">Internet ultra veloz com fibra óptica de ponta a ponta</p>
+            <div class="plans-grid fiber-plans"></div>
+          </div>
+
+          <div class="plan-category">
+            <h3 class="category-title">Planos Via Rádio</h3>
+            <p class="category-description">Conexão estável para regiões mais distantes</p>
+            <div class="plans-grid radio-plans"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Sobre Nós</h2>
+            <p>Há anos conectando Gameleiras com qualidade e compromisso</p>
+          </div>
+
+          <div class="about-content">
+            <div class="about-text">
+              <h3>Nossa História</h3>
+              <p>A Speed Line nasceu do sonho de levar internet de qualidade para Gameleiras e região.
+                 Desde nossa fundação, trabalhamos incansavelmente para expandir nossa rede e melhorar
+                 nossos serviços.</p>
+              <p>Hoje, somos referência em conectividade na região, oferecendo soluções de internet
+                 via fibra óptica com tecnologia de ponta e suporte técnico especializado.</p>
+            </div>
+
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="feature-icon">★</div>
+                <h4>Qualidade</h4>
+                <p>Internet estável e veloz</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h4>Clientes</h4>
+                <p>Milhares de conexões ativas</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">⏰</div>
+                <h4>Suporte 24/7</h4>
+                <p>Sempre prontos para ajudar</p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h4>Segurança</h4>
+                <p>Conexão protegida</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-text-primary">S</span>
+              <span class="logo-text">peedline</span>
+            </div>
+            <p>Conectando Gameleiras com internet de alta velocidade e qualidade.</p>
+            <div class="social-links">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+            </div>
+          </div>
+          
+          <div class="footer-contact">
+            <h3>Contato</h3>
+            <div class="contact-info">
+              <p>📍 Gameleiras, MG</p>
+              <p>📞 (38) 9999-9999</p>
+              <p>✉️ contato@speedline.com.br</p>
+            </div>
+          </div>
+          
+          <div class="footer-hours">
+            <h3>Horário de Atendimento</h3>
+            <div class="hours-info">
+              <p>Segunda a Sexta: 8h às 18h</p>
+              <p>Sábado: 8h às 12h</p>
+              <p>Suporte 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span id="currentYear"></span> Speed Line Internet. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/plans.js"></script>
+  </body>
+</html>
