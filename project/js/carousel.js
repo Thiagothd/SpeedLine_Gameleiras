@@ -1,19 +1,19 @@
 const slides = [
-  {
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1920',
-    title: 'Conecte-se com o melhor da internet em Gameleiras!',
-    subtitle: 'Fibra óptica de alta velocidade para sua casa ou empresa'
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1920',
-    title: 'Tecnologia de ponta para você',
-    subtitle: 'Navegue sem limites com nossa internet de alta performance'
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1551636898-47668aa61de2?auto=format&fit=crop&q=80&w=1920',
-    title: 'Suporte técnico 24hrs',
-    subtitle: 'Estamos sempre prontos para te atender'
-  }
+    {
+        image: "https://images.unsplash.com/photo-1518870849940-AFD58F8c88a9?auto=format&fit=crop&w=800&q=80",
+        title: "Conecte-se com o melhor da internet em Gameleiras!",
+        subtitle: "Fibra óptica de alta velocidade para sua casa ou empresa"
+    },
+    {
+        image: "https://images.unsplash.com/photo-1558756878-8c6DS74C3F5b?auto=format&fit=crop&w=800&q=80", // Ajuste esta URL se o ID estiver incorreto
+        title: "Tecnologia de ponta para você",
+        subtitle: "Navegue sem limites com nossa internet de alta performance"
+    },
+    {
+        image: "https://images.unsplash.com/photo-1515369698047DS8d8k2L0aN7J?auto=format&fit=crop&w=800&q=80", // Ajuste esta URL se o ID estiver incorreto
+        title: "Suporte técnico 24hrs",
+        subtitle: "Estamos sempre prontos para te atender"
+    }
 ];
 
 domReady(() => {
